@@ -65,7 +65,7 @@ function getCookie(name) {
 
 async function fetchPlaces(token) {
     try {
-        const response = await fetch('https://your-api-url/places', {
+        const response = await fetch('https://localhost:5000/places', {
             method: 'GET',
             headers: {
                 'Authorization': `Bearer ${token}`
